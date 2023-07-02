@@ -15,6 +15,7 @@ sudo apt upgrade -y && sudo apt update
 ```bash
 sudo apt install i3 curl git vim neovim tmux -y
 ```
+Logout and switch to i3
 
 ## Create a ssh key
 ```bash

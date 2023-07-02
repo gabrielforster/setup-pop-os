@@ -49,3 +49,8 @@ su - ${USER}
 ```bash
 sudo apt-get install docker-compose-plugin
 ```
+
+## Miscellaneous
+```bash
+sudo apt install arandr -y
+```

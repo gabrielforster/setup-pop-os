@@ -12,8 +12,10 @@ sudo apt upgrade -y && sudo apt update
  - Vim Best text editor
  - Nvim Vim as IDE
  - Tmux Terminal multiplexer
+ - Snap for package installation
+ - lxappearance for theme styling inside i3
 ```bash
-sudo apt install i3 curl git vim neovim tmux -y
+sudo apt install i3 curl git vim neovim tmux snapd lxappearance -y
 ```
 Logout and switch to i3
 
@@ -51,6 +53,19 @@ sudo apt-get install docker-compose-plugin
 ```
 
 ## Miscellaneous
+#### Spotify
+```bash
+sudo snap install spotify -y
+```
+
+#### Arandr - for monitor handling
 ```bash
 sudo apt install arandr -y
+```
+
+#### Android Studio
+```bash
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386 -y
+
+sudo snap install android-studio --classic
 ```

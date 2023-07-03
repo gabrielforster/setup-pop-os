@@ -7,6 +7,7 @@ sudo apt upgrade -y && sudo apt update
 
 ## Install stuff for linux usage
  - i3 Window Manager
+	 - i3blocks
  - curl Its curl...
  - git Its git...
  - Vim Best text editor
@@ -14,8 +15,11 @@ sudo apt upgrade -y && sudo apt update
  - Tmux Terminal multiplexer
  - Snap for package installation
  - lxappearance for theme styling inside i3
+ - feh for background/image handling
+ - compton window transitions and transparency
+ - rofi better mod+d on i3
 ```bash
-sudo apt install i3 curl git vim neovim tmux snapd lxappearance -y
+sudo apt install i3 i3blocks curl git vim neovim tmux snapd lxappearance feh compton rofi -y
 ```
 Logout and switch to i3
 
@@ -68,4 +72,9 @@ sudo apt install arandr -y
 sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386 -y
 
 sudo snap install android-studio --classic
+```
+
+#### Font-awesome
+```bash
+sudo apt install fonts-font-awesome
 ```

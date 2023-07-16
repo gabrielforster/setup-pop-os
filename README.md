@@ -78,3 +78,10 @@ sudo snap install android-studio --classic
 ```bash
 sudo apt install fonts-font-awesome
 ```
+
+#### OH-MY-ZSH
+```bash
+sudo apt install zsh -y
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```

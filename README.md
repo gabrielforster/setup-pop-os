@@ -96,3 +96,13 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 ```
+
+#### Protobuf compiler
+```bash
+sudo apt install protobuf-compiler
+```
+
+#### Accept remove ssh connection
+```bash
+sudo apt install openssh-server
+```
